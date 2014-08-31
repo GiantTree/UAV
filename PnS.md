@@ -8,6 +8,7 @@ in this file.
 edit file /etc/network/interfaces, and insert these lines
 
 use dhcp to get ip address
+    
     auto wlan0
     allow-hotplug wlan0 
     iface wlan0 inet dhcp 
@@ -15,6 +16,7 @@ use dhcp to get ip address
     wpa-psk "<ap_password>"
 
 use static ip address for WiFi
+    
     auto wlan0
     wpa-ssid "<ap_ssid>"
     wpa-psk "<ap_password>"
